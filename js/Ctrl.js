@@ -4,5 +4,3 @@ angular.module('app').controller('Ctrl', ['$scope', 'srvc', function($scope,srvc
   })
   $scope.numWords = 0;
 }])
-
-//adding a comment

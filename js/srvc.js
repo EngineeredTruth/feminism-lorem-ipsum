@@ -31,26 +31,43 @@ angular.module('app').service('srvc', function() {
     '5 Reasons why men should still buy us an enagement ring.',
     'vague',
     'gender elitism',
-    'I want equal pay, but men should still pay for dates',
+    'I want equal pay, but men should still pay for dates.',
     'Why do I friendzone all the nice guys?',
     'objectified',
-    'equaly pay for shitty work'
-  ]
-  this.connectingWords = [
+    'equal pay for shitty work',
+    'whatever',
+    'Hates objectifying, but favorite movie is Magic Mike.',
+    'cant watch what I say or what I eat.',
+    'Buzzfeed',
+    'Huffington Post',
+    'The Elite Daily',
+    'Thought Catalog',
+    'Kale',
+    'Jamba Juice',
     'the',
     'and',
     'but',
     'or',
     'so',
-    'if'
+    'if',
+    '50 Shades of Grey is my favorite movie',
+    'I only date guys who are 6 feet tall',
+    "I don't date guys who drive Camrys",
+    'gender neutral',
+    'born a woman, but looks like a man',
+    'Buy me a drink.',
+    'wine',
+    'Gym memberships are like so expensive',
+    'still wears yoga pants',
   ]
 
+
   this.generateLorem = (x, num, l) => {
-    let results = '';
+    let results = '  ';
     for(let i = 0; i < num; i++){
-      results = results.concat(x[Math.round((Math.random()*(l - 0) + 0))]+ ' ');
+      results = results.concat(' '+x[Math.round((Math.random()*(l - 0) + 0))]);
     }
-    console.log('srvc: ', results)
+
     return results;
   }
 

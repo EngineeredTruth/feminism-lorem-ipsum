@@ -1,8 +1,15 @@
 <div>
-  <h1>Feminism Lorem Ipsum</h1>
-  <form ng-submit() style='width: 300px;' class="form-group">
-      <label for="usr">How many words do you need?</label>
-      <input type="text" class="form-control" ng-model='numWords'>
-  </form>
-  {{lorem}}
+    <div style='background: rgb(65, 64, 190)' class='jumbotron text-center'>
+        <h1 style='color: rgb(237, 237, 237);'>Feminism Lorem Ipsum</h1>
+    </div>
+    <div style='margin:auto; width: 500px; text-align: center;'>
+        <img style='margin: auto;' src='./img/fm7.jpg' />
+    </div>
+    <form ng-submit() style='width: 400px; margin: 25px auto;' class="form-group">
+        <label style='font-size: 20px;' class='text-center'>How many words do you need?</label>
+        <input type="text" class="form-control" ng-model='numWords'>
+    </form>
+    <p style='margin: 35px;'>
+        {{lorem}}
+    </p>
 </div>
