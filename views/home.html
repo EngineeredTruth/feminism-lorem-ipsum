@@ -5,11 +5,17 @@
     <div style='margin:auto; width: 500px; text-align: center;'>
         <img style='margin: auto;' src='./img/fm7.jpg' />
     </div>
-    <form ng-submit() style='width: 400px; margin: 25px auto;' class="form-group">
-        <label style='font-size: 20px;' class='text-center'>How many words do you need?</label>
+    <label style='padding: 25px 0 0 0; font-size: 20px; width: 99%; margin: auto;' class='text-center'>How many words do you need?</label>
+
+    <div ng-submit() style='width: 400px; margin: 0 auto;' class='input-group'>
         <input type="text" class="form-control" ng-model='numWords'>
-    </form>
-    <p style='margin: 35px;'>
+        <span class="input-group-btn">
+        <button data-container="body" data-toggle="popover" data-placement="top" data-content="Copied!" data-original-title="" title="" class="btn copy" data-clipboard-target="#foo">
+          Copy
+        </button>
+        </span>
+  </div>
+    <p id='foo' style='margin: 35px;'>
         {{lorem}}
     </p>
 </div>

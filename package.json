@@ -1,0 +1,22 @@
+{
+  "name": "feminism-ipsum-lorem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngineeredTruth/feminism-lorem-ipsum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EngineeredTruth/feminism-lorem-ipsum/issues"
+  },
+  "homepage": "https://github.com/EngineeredTruth/feminism-lorem-ipsum#readme",
+  "dependencies": {
+    "clipboard": "^1.5.15"
+  }
+}

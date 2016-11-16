@@ -1,1 +1,10 @@
+.copy {
+  background: rgb(65, 64, 190);
+  color:rgb(237, 237, 237);
+}
 
+.copy:active {
+  background: rgb(121, 120, 214);
+  border-style: inset;
+  border: solid;
+}
